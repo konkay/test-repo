@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CloudSrsApplication {
 
 	public static void main(String[] args) {
+		System.out.println("In main class..");
 		SpringApplication.run(CloudSrsApplication.class, args);
 	}
 
